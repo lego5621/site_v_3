@@ -1,0 +1,111 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444;
+}
+
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    font-size: 30px;
+    padding: 2% 2%;
+    background-color: #f0f0f0;
+}
+
+.trow{
+    display: flex;
+    font-size: 20px;
+}
+
+.year{
+    width: 10%;
+}
+
+.project{
+    width: 30%;
+}
+
+.client{
+    width: 25%;
+}
+
+.info{
+    width: 35%;
+}
+
+.trow{
+    margin: 0.5% 5%;
+}
+
+.tr_head{
+    font-weight: bold;
+    margin: 1% 5%;
+}
+
+.head_email{
+    text-align: right;
+}
+
+
+@media screen and (max-width: 800px) {
+    .year{
+        width: 20%;
+    }
+    
+    .project{
+        width: 55%;
+    }
+    
+    .client{
+        width: 25%;
+    }
+    
+    .info{
+        display: none;
+    }
+
+    .head{
+        font-size: 20px;
+    }
+
+    .trow{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .year{
+        width: 30%;
+    }
+    
+    .project{
+        width: 70%;
+    }
+    
+    .client{
+        display: none;
+    }
+    
+    .info{
+        display: none;
+    }
+    
+}
+
+
+/* Скрол бар */
+::-webkit-scrollbar { width: 6px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: none; height: 0; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color:  #999; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}

@@ -1,0 +1,119 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444;
+}
+
+html{
+    font-size: 20px;
+}
+
+.head, .text, .skills, .projects, .info{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrap_header{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.position{
+    margin: 0;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    font-size: 1.5rem; 
+    text-align: center;
+}
+
+.text_p{
+    font-size: 1rem; 
+}
+
+.foto{
+    max-width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img_foto{
+    width: 100%;
+}
+
+.text, .info{
+    background-color: #f0f0f0;
+}
+
+.text, .skills, .info, .projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills{
+    font-size: 1rem;
+}
+
+.marg_p{
+    padding-bottom: 1.5rem;
+}
+
+.p_skills{
+    font-weight: 900;
+    padding-bottom: 3px;
+    line-height: 1.75;
+    text-align: center;
+}
+
+.text_text{
+    padding-bottom: 3px;
+    line-height: 1.75;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.info{
+    text-align: center;
+    line-height: 1.75;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+#info_name{
+    font-size: 1.52rem;
+}
+
+.wrap_projects{
+    font-size: 1rem;
+}
+
+#center{
+    text-align: center;
+    margin-top: 6%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+        html{
+            font-size: 17px;
+        }
+    }
+
+
+/* Скрол бар */
+::-webkit-scrollbar { width: 6px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: none; height: 0; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color:  #999; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}
